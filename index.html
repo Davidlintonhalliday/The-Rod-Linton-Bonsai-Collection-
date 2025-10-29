@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>The Rod Linton Bonsai Collection</title>
+  <meta name="description" content="A living archive of Rod Linton’s bonsai trees — catalogue, care notes, and seasonal advice. Dedicated to Deb Linton." />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="canonical" href="https://rod-linton-bonsai.netlify.app/" />
+  <meta property="og:title" content="The Rod Linton Bonsai Collection" />
+  <meta property="og:description" content="Catalogue, care notes, and bonsai advice from a collection grown since the 1980s." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-cover.jpg" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/logo-leaf.jpg" alt="Rod Linton Bonsai logo">
+        <div class="brand-title">Rod Linton Bonsai</div>
+      </a>
+      <nav class="nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="collection.html">Collection</a>
+        <a href="blog.html">Advice</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Feedback</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-card">
+        <div class="kicker">Since the 1980s</div>
+        <h1>The Rod Linton Bonsai Collection</h1>
+        <p class="lede">
+          A catalogue of living sculptures tended with patience and care.
+          This site documents Rod’s trees—species, styles, ages, pots, and seasonal notes—
+          along with practical advice from decades of hands-on experience.
+          Dedicated in loving memory to Deb Linton.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="collection.html">Browse the Collection</a>
+          <a class="btn btn-ghost" href="blog.html">Read Advice Posts</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/hero-bonsai.jpg" alt="Hero photo of a mature bonsai" style="width:100%;height:auto;border-radius:16px;">
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Highlights</h2>
+      <div class="grid cols-3">
+        <div class="card pad"><span class="badge">Guide</span><h3>Seasonal Care</h3><p>Watering, pruning, wiring, and repotting schedules tailored to Australian seasons.</p></div>
+        <div class="card pad"><span class="badge">Catalogue</span><h3>Detailed Records</h3><p>Each tree has photos, lineage, pot notes, and care history for provenance.</p></div>
+        <div class="card pad"><span class="badge">Community</span><h3>Ask Rod</h3><p>Send a question or a photo of your bonsai for friendly feedback.</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="assets/sample-maple-1.jpg" alt="Japanese maple">
+        <img src="assets/sample-pine-1.jpg" alt="Black pine">
+        <img src="assets/sample-gum-1.jpg" alt="River red gum">
+      </div>
+    </section>
+
+    <footer class="footer container">
+      <p>© <span id="year"></span> The Rod Linton Bonsai Collection • Built with love by David Linton-Halliday. In memory of Deb.</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
