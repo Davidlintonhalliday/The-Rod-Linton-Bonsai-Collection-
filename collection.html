@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Collection — Rod Linton Bonsai</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/logo-leaf.jpg" alt="Rod Linton Bonsai logo">
+        <div class="brand-title">Rod Linton Bonsai</div>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a class="active" href="collection.html">Collection</a>
+        <a href="blog.html">Advice</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Feedback</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Collection Catalogue</h1>
+    <div class="card pad" style="margin-bottom:14px">
+      <div class="filters">
+        <input id="q" class="input" placeholder="Search name, species, notes…" style="max-width:280px">
+        <select id="species"></select>
+        <select id="style"></select>
+      </div>
+    </div>
+    <div id="collection-grid" class="grid cols-3"></div>
+  </main>
+</body>
+</html>
