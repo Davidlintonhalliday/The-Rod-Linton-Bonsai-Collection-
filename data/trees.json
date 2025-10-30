@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "name": "Old River Pine",
+    "species": "Japanese Black Pine (Pinus thunbergii)",
+    "style": "Formal Upright (Chokkan)",
+    "age_years": 38,
+    "height_cm": 45,
+    "pot": "Tokoname oval, celadon glaze",
+    "notes": "Started from nursery stock in late 1980s. Subtle taper achieved through staged leader cuts.",
+    "photos": [
+      "assets/sample-pine-1.jpg",
+      "assets/sample-pine-2.jpg"
+    ],
+    "care": {
+      "watering": "Allow to dry slightly between waterings; reduce in winter.",
+      "pruning": "Pinch candles in late spring; structural cuts mid-winter.",
+      "wiring": "Late autumn on lignified growth; check monthly.",
+      "repotting": "Every 3–4 years in coarse mix.",
+      "substrate": "70% akadama, 20% pumice, 10% lava."
+    }
+  },
+  {
+    "id": 2,
+    "name": "Courtyard Maple",
+    "species": "Japanese Maple (Acer palmatum)",
+    "style": "Informal Upright (Moyogi)",
+    "age_years": 29,
+    "height_cm": 32,
+    "pot": "Rectangular unglazed Tokoname",
+    "notes": "Air-layered in the 1990s; refined through clip-and-grow technique.",
+    "photos": ["assets/sample-maple-1.jpg"],
+    "care": {
+      "watering": "Keep evenly moist; never allow to dry completely.",
+      "pruning": "Partial defoliation in early summer; remove crossing shoots.",
+      "wiring": "Minimal; prefers clip-and-grow.",
+      "repotting": "Every 2 years; root prune lightly.",
+      "substrate": "60% akadama, 20% pumice, 20% lava."
+    }
+  },
+  {
+    "id": 3,
+    "name": "Gum on the Ridge",
+    "species": "River Red Gum (Eucalyptus camaldulensis)",
+    "style": "Windswept (Fukinagashi)",
+    "age_years": 22,
+    "height_cm": 28,
+    "pot": "Shallow round sand-glaze",
+    "notes": "Native seedling; apex shaped by years of westerly winds.",
+    "photos": ["assets/sample-gum-1.jpg"],
+    "care": {
+      "watering": "Likes consistent moisture; avoid waterlogging.",
+      "pruning": "Backbuds strongly; pinch soft tips often in season.",
+      "wiring": "Use guy-wires; bark scars easily.",
+      "repotting": "Every 2 years; tolerates root trims well.",
+      "substrate": "50% diatomite, 30% akadama, 20% pine bark."
+    }
+  }
+]
