@@ -54,6 +54,21 @@
       "wiring": "Use guy-wires; bark scars easily.",
       "repotting": "Every 2 years; tolerates root trims well.",
       "substrate": "50% diatomite, 30% akadama, 20% pine bark."
-    }
+ {
+  "id": 4,
+  "name": "Ancient Juniper",
+  "species": "Chinese Juniper (Juniperus chinensis)",
+  "style": "Cascade (Kengai)",
+  "age_years": 41,
+  "height_cm": 38,
+  "pot": "Hand-thrown oval, unglazed",
+  "notes": "Collected from a nursery in 1982. Characteristic deadwood carving done in 2004.",
+  "photos": ["assets/juniper-1.jpg", "assets/juniper-2.jpg"],
+  "care": {
+    "watering": "Moderate moisture; avoid waterlogging.",
+    "pruning": "Pinch new growth during summer.",
+    "wiring": "Autumn; check every 2 months.",
+    "repotting": "Every 4 years.",
+    "substrate": "60% akadama, 20% pumice, 20% lava."
   }
-]
+}
