@@ -1,14 +1,15 @@
 :root {
-  --bg: #0f1411;
-  --bg-soft: #151b17;
-  --card: #101512;
-  --ink: #e9efe8;
-  --muted: #b7c4b4;
-  --accent: #9fcc7b;
-  --accent-2: #6fa15a;
-  --shadow: 0 10px 30px rgba(0,0,0,.25);
+  --bg: #f4f8f3;          /* pale leaf white */
+  --bg-soft: #e8efe4;      /* soft minty grey */
+  --card: #ffffff;         /* pure white cards */
+  --ink: #1a1a1a;          /* dark text */
+  --muted: #5e6b57;        /* soft green-gray */
+  --accent: #9fcc7b;       /* moss green */
+  --accent-2: #6fa15a;     /* pine green */
+  --shadow: 0 4px 14px rgba(0,0,0,.1);
   --radius: 16px;
 }
+
 
 * { box-sizing: border-box; }
 
